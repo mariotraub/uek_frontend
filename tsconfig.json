@@ -6,12 +6,12 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "include": [
-      "./**/*"
-    ],
-    "exclude": [
-      "node_modules",
-      ".idea"
-    ]
-  }
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    ".idea"
+  ]
 }
