@@ -13,4 +13,8 @@ while (true) {
         numbers.push(num);
     }
 }
-alert(numbers.reduce((acc, cur) => acc + cur));
+const operator = prompt("Enter an operator (+, -, *, /)");
+if (operator !== "+" && operator !== "-" && operator !== "*" && operator !== "/") {
+    throw new Error("Invalid operator");
+}
+alert(numbers.reduce((acc, cur) => eval(`${acc} ${operator} ${cur}`)));
