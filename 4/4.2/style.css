@@ -1,0 +1,27 @@
+.tracked {
+    transition: ease-in-out 1s;
+}
+
+.fade {
+    opacity: 0;
+}
+
+.visible.fade {
+    opacity: 1;
+}
+
+.slide {
+    transform: translateX(-110%);
+}
+
+.visible.slide {
+    transform: translateX(0);
+}
+
+.slide-right {
+    transform: translate(1000%);
+}
+
+.visible.slide-right {
+    transform: translate(0);
+}
