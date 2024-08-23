@@ -12,6 +12,7 @@ console.log(lastFreeToPlay);
 const bestsellerLis = document.getElementsByClassName("games")[1].querySelectorAll("li");
 console.log(bestsellerLis);
 // 5
+// @ts-expect-error
 const h1 = document.querySelector("h1");
 console.log(h1);
 // 6

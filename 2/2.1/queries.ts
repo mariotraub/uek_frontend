@@ -15,6 +15,7 @@ const bestsellerLis = document.getElementsByClassName("games")[1].querySelectorA
 console.log(bestsellerLis);
 
 // 5
+// @ts-expect-error
 const h1 = document.querySelector("h1");
 console.log(h1);
 
