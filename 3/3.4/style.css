@@ -1,0 +1,20 @@
+.capital {
+    color: black;
+    font-family: Roboto, sans-serif;
+}
+
+.country {
+    color: black;
+    font-family: Roboto, sans-serif;
+}
+
+li {
+    border: 2px solid green;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 10px
+}
+
+.selected {
+    background-color: lightgreen;
+}
