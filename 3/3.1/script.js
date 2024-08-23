@@ -3,6 +3,7 @@
 const button = document.getElementById("button");
 button.onclick = () => alert("Hello World!");
 // 2
+// @ts-ignore
 let counter = 0;
 // @ts-expect-error
 const h1 = document.createElement("h1");

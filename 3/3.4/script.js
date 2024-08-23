@@ -1,4 +1,5 @@
 "use strict";
+// @ts-ignore
 const container = document.getElementById("destinations");
 const choose = document.getElementById("choose");
 const destinations = [].slice.call(container.children);

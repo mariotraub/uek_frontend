@@ -1,3 +1,4 @@
+// @ts-ignore
 const container = document.getElementById("destinations")!!;
 const choose = document.getElementById("choose")!!;
 const destinations: HTMLLIElement[] = [].slice.call(container.children);
