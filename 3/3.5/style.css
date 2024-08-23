@@ -18,6 +18,7 @@
     position: relative;
     display: flex;
     justify-content: center;
+    border-radius: 10px;
 }
 
 .canton .cover {
@@ -28,10 +29,17 @@
     position: absolute;
     top: 0;
     left: 0;
-    transition: opacity 0.5s;
+    transition: opacity 0.5s, transform 0.2s ease-in-out;
+    border-radius: 10px;
+}
+
+.canton .cover:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .canton.selected .cover,
 .canton.right .cover{
     opacity: 0;
+    cursor: auto;
 }
