@@ -26,3 +26,4 @@ context.beginPath();
 context.arc(100, 75, 70, Math.PI - 1, 2 * Math.PI + 1, true);
 context.closePath();
 context.stroke();
+// TODO: 7
