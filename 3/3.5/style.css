@@ -16,6 +16,8 @@
     width: 150px;
     height: 150px;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .canton .cover {
