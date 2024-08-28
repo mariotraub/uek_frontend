@@ -10,3 +10,5 @@ while (true) {
     }
     alert(guess > rand ? "Zu hoch!" : "Zu niedrig!");
 }
+
+export {}

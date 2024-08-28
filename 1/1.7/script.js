@@ -1,4 +1,3 @@
-"use strict";
 const rand = Math.floor(Math.random() * 100);
 let guess = undefined;
 while (true) {
@@ -9,3 +8,4 @@ while (true) {
     }
     alert(guess > rand ? "Zu hoch!" : "Zu niedrig!");
 }
+export {};

@@ -19,3 +19,5 @@ if (operator !== "+" && operator !== "-" && operator !== "*" && operator !== "/"
 }
 
 alert(numbers.reduce((acc, cur) => eval(`${acc} ${operator} ${cur}`)));
+
+export {}

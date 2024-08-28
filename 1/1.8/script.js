@@ -1,4 +1,3 @@
-"use strict";
 const numbers = [];
 while (true) {
     const input = prompt("Enter a number");
@@ -18,3 +17,4 @@ if (operator !== "+" && operator !== "-" && operator !== "*" && operator !== "/"
     throw new Error("Invalid operator");
 }
 alert(numbers.reduce((acc, cur) => eval(`${acc} ${operator} ${cur}`)));
+export {};
