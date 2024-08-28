@@ -1,0 +1,39 @@
+.tree details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.tree details {
+    overflow: hidden;
+}
+
+.tree summary {
+    user-select: none;
+}
+
+.tree *:not(details)::before {
+    content: "";
+    background-image: url("file.png");
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tree summary::before {
+    background-image: url("folder.png");
+}
+
+.tree details[open] {
+    margin-bottom: 5px;
+}
+
+.tree summary:hover {
+    cursor: pointer;
+}
