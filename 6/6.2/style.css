@@ -1,0 +1,19 @@
+input {
+    margin: 10px;
+    width: 200px;
+    border: 2px solid black;
+    height: 30px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: transparent;
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+}
+
+input:invalid {
+    border-color: indianred;
+}
