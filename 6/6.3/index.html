@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adressbuch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module" defer></script>
+</head>
+<body>
+<form name="form">
+
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required minlength="2">
+    </div>
+    <div>
+        <label for="surname">Nachname</label>
+        <input type="text" name="surname" id="surname" required minlength="2">
+    </div>
+    <div>
+        <label for="street">Straße</label>
+        <input type="text" name="street" id="street" required minlength="2">
+    </div>
+    <div>
+        <label for="number">Hausnummer</label>
+        <input type="number" name="number" id="number" required minlength="1">
+    </div>
+    <div>
+        <label for="email">E-Mail</label>
+        <input type="email" name="email" id="email" required>
+    </div>
+    <div>
+        <label for="zip">PLZ</label>
+        <input type="number" name="zip" id="zip" required minlength="5" maxlength="5">
+    </div>
+    <div>
+        <label for="city">Stadt</label>
+        <input type="text" name="city" id="city" required minlength="2">
+    </div>
+    <div>
+        <label for="duzen">Duzen?</label>
+        <input type="checkbox" name="duzen" id="duzen">
+    </div>
+    <fieldset>
+        <legend>Woher kenne ich die Person?</legend>
+        <div>
+            <label for="school">Schule</label>
+            <input type="radio" name="where" id="school" required>
+        </div>
+        <div>
+            <label for="work">Arbeit</label>
+            <input type="radio" name="where" id="work" required>
+        </div>
+        <div>
+            <label for="private">Privat</label>
+            <input type="radio" name="where" id="private" required>
+        </div>
+    </fieldset>
+
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
