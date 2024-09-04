@@ -1,0 +1,15 @@
+#login {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto auto 20px;
+}
